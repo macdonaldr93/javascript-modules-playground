@@ -9,6 +9,6 @@ rollup.rollup({
 }).then(function (bundle) {
   bundle.write({
     file: 'build/bundle.js',
-    format: 'umd'
+    format: 'iife'
   });
 });
